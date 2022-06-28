@@ -10,10 +10,7 @@ import Meme from './components/Meme.jsx';
 
 
 
-export default function App(props) {
-
-
-
+export default function App() {
 
   return (
     <div className='page'>
