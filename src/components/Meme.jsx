@@ -18,7 +18,7 @@ console.log(allMemes)
         .then(res => res.json())
         .then(data => setAllMemes(data.data.memes))
         console.log(allMemes)
-    }, [allMemes])
+    }, [])
 
 
 
